@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: #cfd2d3;
+}
+.h2p:hover {
+  color: rgba(89, 89, 102, 0.986);
+  scale: 110%;
+}
+.product {
+    padding: auto;
+    margin: auto;
+    padding-top: 2%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: #ECF0F1;
+    text-align: center;
+}
+
+.c-item {
+    height: 85%;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
